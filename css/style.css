@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700italic,400);
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Niconne|Open+Sans);
+
+body{
+    font-size: 18px;
+    background-color:#C09560;
+    font-family: 'Open Sans', sans-serif;
+	color:#FAFAFA;
+	text-decoration:none;
+}
+#header-nav{
+	background-color: #333333;
+	border-radius:0;
+	border:0;
+
+}
+#ice-img {
+ background: url('../images/ice.png') no-repeat;
+ width: 150px;
+ height: 150px;
+ margin: 5px 5px 5px 2px;
+
+}
+.navbar-brand{
+	padding-top: 10px;
+
+}
+.navbar-brand h1{/*Company*/
+	font-family:'Niconne', cursive;
+	font-size: 2.0em;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-shadow: 3px 3px 3px #C09560;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height:.80;
+	
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+#nav-list{
+	margin-top: 20px;
+}
+#nav-list a{
+	text-align: center;
+	color:#FFFFFF;
+	font-family:'Niconne', cursive;
+    font-size: 30px;
+}
+#nav-list a:hover{
+	background:#C09560;
+	border:1px solid #FFFFFF;
+}
+#nav-list a span{
+	font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle{
+	clear:both;
+	margin-top:-20px;
+}
+.text-center{
+	font-size: 40px;
+	font-family: 'Niconne', cursive;
+	padding:20px;
+	font-weight:bold;
+}
+.row{
+	background: #333333;
+	max-height:auto;
+	margin: auto;
+	text-overflow: hidden;
+}
+ #menu-tile{  
+	
+	color: #FFFFFF;
+    font-size: 30px;
+    font-family: 'Niconne', cursive;
+    text-decoration: none;
+    margin:5px 5px 0 0;
+    padding: 10px;
+ 
+}
+#text{
+    color: #FFFFFF;
+    padding: 5px;
+	margin: auto;
+	max-height: auto;
+	text-align:justify;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+}
